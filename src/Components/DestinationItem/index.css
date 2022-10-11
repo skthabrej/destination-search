@@ -1,0 +1,19 @@
+.img-style {
+    border-radius: 20px;
+    width: 30vh;
+    height: 22vh;
+    background-size: cover;
+  }
+  
+  .destination-item {
+    list-style: none;
+    margin: 20px;
+  }
+  
+  .destination-name {
+    color: #ffffff;
+    font-family: 'open sans';
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+  }
