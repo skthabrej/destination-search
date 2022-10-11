@@ -37,10 +37,10 @@ class DestinationSearch extends Component {
               />
             </div>
             <ul className="destinations-container">
-              {searchResults.map(eachDestination => (
+              {searchResults.map(eachSeries => (
                 <DestinationItem
-                  key={eachDestination.id}
-                  destinationDetails={eachDestination}
+                  key={eachSeries.id}
+                  destinationDetails={eachSeries}
                 />
               ))}
             </ul>
