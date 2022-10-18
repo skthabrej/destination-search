@@ -5,7 +5,6 @@ class DestinationItem extends Component {
   render() {
     const {destinationDetails} = this.props
     const {imageUrl, name} = destinationDetails
-    console.log(imageUrl, name)
 
     return (
       <li className="destination-item">

@@ -14,12 +14,12 @@ class DestinationSearch extends Component {
   render() {
     const {initialDestinationsList} = this.props
     const {searchInput} = this.state
-    const searchResults = initialDestinationsList.filter(eachUser =>
-      eachUser.name.toLowerCase().includes(searchInput),
-    )
+    const searchResults = initialDestinationsList.filter(eachUser => (
+      eachUser.name.toLowerCase().includes(searchInput)
+    ))
     return (
       <div className="bg-container">
-        <h1 className="heading-1">NETFLIX</h1>
+        <h1 className="heading-1">N E T F L I X</h1>
         <div className="search-container">
           <div>
             <div className="search-container-2">
@@ -37,10 +37,10 @@ class DestinationSearch extends Component {
               />
             </div>
             <ul className="destinations-container">
-              {searchResults.map(eachSeries => (
+              {searchResults.map(eachDestination => (
                 <DestinationItem
-                  key={eachSeries.id}
-                  destinationDetails={eachSeries}
+                  key={eachDestination.id}
+                  destinationDetails={eachDestination}
                 />
               ))}
             </ul>
