@@ -4,9 +4,10 @@
 }
 
 .heading-1 {
-  color: #000000;
+  color: #ffffff;
   font-family: 'Roboto';
   text-align: center;
+  font-size: 80px;
 }
 
 .search-container {
